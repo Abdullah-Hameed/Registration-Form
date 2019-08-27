@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+    h1, .abc {
+        background-color: lightgreen;
+    }
+    .input > input, select {
+        margin-left: 200px;
+    }
+    div {
+    width: 800px; 
+    margin: 0 auto;
+    background-color: #D3D3D3;
+    }   
+
+    </style>
+</head>
+<body>
+    <div>
+    <form>
+        <table>
+            <h1>User Registration Form</h1>
+       <tr> 
+        <td> User Name:</td>
+        <td class="input"> <input type="text"></td> 
+    </tr>
+        <tr>
+        <td> Password: </td>
+        <td class="input"> <input type="password"> </td>    
+    </tr>
+        <tr> 
+            <td>Date Of Birth:</td>
+        <td class="input"><input type="date"></td>    
+    </tr>    
+        <tr> 
+            <td>Web URL:</td>
+           <td class="input"><input type="url"></td> 
+        </tr>
+    <tr>    
+           <td> Address:</td>
+           <td class="input"><input type="text"></td>
+        </tr>
+    <tr>    
+        <td>City:</td>    
+      <td class="input"><select name="City">
+        <option value="Karachi">Karachi</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="KPK">KPK</option></td>
+        </select>   
+    </tr>
+        <tr>
+            <td>State:</td>
+            <td class="input"><select name="State">
+                <option value="Sindh">Sindh</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Balochistan">Balochistan</option>
+                <option value="N.W.F.P">N.W.F.P</option>
+            </td>
+        </tr>
+        <tr>
+           <td> Zip: </td>
+           <td class="input"> <input type="number"> </td>
+        </tr>
+        <tr>
+            <td> Magazine:</td>
+            <td class="input">
+                <select name="Magazine" multiple="multiple">
+                    <option value="Newsweek"> Newsweek</option>
+                    <option value="Time">Time</option>
+                    <option value="Fortune"> Fortune</option>
+                    <option value="TV Guide">TV Guide</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Additional Comments:
+            </td>
+            <td> <textarea name="comments" cols="20" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+        Upload Your Profile Picture:
+    </td>
+   
+         <td> <input type="file" name="user-picture"></td><br>
+
+        <td> <input type="submit" value="Upload" class="abc"></td> <br><br>
+            </tr>
+        <td> <input type="submit" name="Send Your Order" value="Send Your Order" class="abc"></td>
+            
+        </tr>   
+        </form>
+    </div> 
+</body>
+</html>
